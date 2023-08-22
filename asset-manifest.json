@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DevWave/static/css/main.25c37849.css",
+    "main.js": "/DevWave/static/js/main.24178f70.js",
+    "static/js/787.f4d814e7.chunk.js": "/DevWave/static/js/787.f4d814e7.chunk.js",
+    "index.html": "/DevWave/index.html",
+    "main.25c37849.css.map": "/DevWave/static/css/main.25c37849.css.map",
+    "main.24178f70.js.map": "/DevWave/static/js/main.24178f70.js.map",
+    "787.f4d814e7.chunk.js.map": "/DevWave/static/js/787.f4d814e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25c37849.css",
+    "static/js/main.24178f70.js"
+  ]
+}
