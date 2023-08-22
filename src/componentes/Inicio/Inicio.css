@@ -1,0 +1,104 @@
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #21da96;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7affc3;
+}
+
+/*seccion ¿Que hacemos?*/
+.titulo{
+  color: #21da96
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 5% auto;
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Animaciones */
+.item h2 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease-in-out 0.2s forwards;
+}
+
+.item p {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease-in-out 0.4s forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.blur-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
