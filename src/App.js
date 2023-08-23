@@ -12,7 +12,7 @@ import Inicio from "./componentes/Inicio/Inicio";
 import Servicios from "./componentes/Servicios/Servicios";
 import Contacto from "./componentes/Contacto/Contacto";
 import Checkout from "./componentes/Checkout/Checkout";
-
+/**/
 function App() {
   return (
     <Router>
